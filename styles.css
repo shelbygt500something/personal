@@ -1,15 +1,23 @@
 body{
+    background-image: url(neon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+body{
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 700px;
 
 }
 #calculator{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(90, 85, 85);
-    border-radius: 40px;
+    border-radius: 60px;
     max-width: 450px;
     max-height: 1000px;
     overflow: hidden;
@@ -17,7 +25,7 @@ body{
 }
 #display{
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     text-align: left;
     border: none;
     font-size: 400%;
